@@ -13,6 +13,7 @@
 		E948518925090A2D00A2DD8C /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948518825090A2D00A2DD8C /* RemoteAddAccountTests.swift */; };
 		E948519325090A6900A2DD8C /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E948516A2509054F00A2DD8C /* Domain.framework */; };
 		E948519425090A6900A2DD8C /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E948516A2509054F00A2DD8C /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E948519925093F1E00A2DD8C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948519825093F1E00A2DD8C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		E948518325090A2D00A2DD8C /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E948518825090A2D00A2DD8C /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
 		E948518A25090A2D00A2DD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E948519825093F1E00A2DD8C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				E9485172250905FC00A2DD8C /* AddAccount.swift */,
 				E94851742509074100A2DD8C /* AccountModel.swift */,
+				E948519825093F1E00A2DD8C /* Model.swift */,
 				E948516D2509054F00A2DD8C /* Info.plist */,
 			);
 			path = Domain;
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E948519925093F1E00A2DD8C /* Model.swift in Sources */,
 				E9485173250905FC00A2DD8C /* AddAccount.swift in Sources */,
 				E94851752509074100A2DD8C /* AccountModel.swift in Sources */,
 			);
