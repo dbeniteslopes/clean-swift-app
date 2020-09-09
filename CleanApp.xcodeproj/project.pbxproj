@@ -164,8 +164,8 @@
 		E948519F2509549500A2DD8C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E94851742509074100A2DD8C /* AccountModel.swift */,
 				E948519825093F1E00A2DD8C /* Model.swift */,
+				E94851742509074100A2DD8C /* AccountModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";

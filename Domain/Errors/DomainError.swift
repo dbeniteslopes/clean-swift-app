@@ -1,5 +1,5 @@
 import Foundation
 
-public enum DomainError {
+public enum DomainError: Error {
     case unexpected
 }
