@@ -6,9 +6,16 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E9485173250905FC00A2DD8C /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9485172250905FC00A2DD8C /* AddAccount.swift */; };
+		E94851752509074100A2DD8C /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94851742509074100A2DD8C /* AccountModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E948516A2509054F00A2DD8C /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E948516D2509054F00A2DD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9485172250905FC00A2DD8C /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
+		E94851742509074100A2DD8C /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +48,8 @@
 		E948516B2509054F00A2DD8C /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				E9485172250905FC00A2DD8C /* AddAccount.swift */,
+				E94851742509074100A2DD8C /* AccountModel.swift */,
 				E948516D2509054F00A2DD8C /* Info.plist */,
 			);
 			path = Domain;
@@ -88,6 +97,7 @@
 				TargetAttributes = {
 					E94851692509054F00A2DD8C = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -124,6 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9485173250905FC00A2DD8C /* AddAccount.swift in Sources */,
+				E94851752509074100A2DD8C /* AccountModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +265,7 @@
 		E948516F2509054F00A2DD8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -272,6 +285,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -279,6 +293,7 @@
 		E94851702509054F00A2DD8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
