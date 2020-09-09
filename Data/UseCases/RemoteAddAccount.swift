@@ -15,9 +15,12 @@ final class RemoteAddAccount: AddAccount {
         httpClient.post(to: url, with: addAccountModel.toData()) { result in
             switch result {
             case .success(let data):
-                if let accountModel: AccountModel = data.toModel() {
-                    completion(.success(accountModel))
+                guard let accountModel: AccountModel = data.toModel() else {
+                    completion(.failure(.unexpected))
+                    return
                 }
+                
+                completion(.success(accountModel))
             case .failure: completion(.failure(.unexpected))
             }
         }
